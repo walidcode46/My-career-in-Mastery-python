@@ -9,13 +9,13 @@ print(myStringOne)
 print(myStringTwo)
 
 myStringThree = 'This is sigle Qoute "test"'
-myStringFour = "This is sigle Qoute 'test'"
+myStringFour = "This is Double Qoute 'test'"
 
 print(myStringThree)
 print(myStringFour)
 
 myStringFive = '''Frist
-Second
+Second 
 Third'''
 myStringSix = """Frist
 Second

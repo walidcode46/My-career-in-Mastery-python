@@ -7,4 +7,5 @@
 #   - quotes \" inside the text
 #   - a backslash \\ at the end
 # Combine all parts into one final print 
-print("Hello\tWorld\nThis is a \"Python\" exercise with a backslash \\")
+
+print("Hello\tWorld\nI'm Walid\"brika\"My\\job")  

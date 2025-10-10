@@ -1,6 +1,6 @@
-# --------------------------------
-# -- Variable --
-# --------------------------------
+# ------------------------------------------------------------
+# -- ----------- Variable ------------------------------------
+# ------------------------------------------------------------
 # Syntax => [Variable Name] [Assignment Operator] [Value]
 #
 # Name Convention And Rules 
@@ -9,7 +9,7 @@
 # [3] Can Include (0-9) Or Underscore
 # [4] Connot Include Special Characters
 # [5] Name is Not Like Name [Case Sensitive]
-# --------------------------------
+# ------------------------------------------------------------
 
 Name = "walid code" # Single Word => Normal
 MyName = "walid code" # Two Word => camelCase
