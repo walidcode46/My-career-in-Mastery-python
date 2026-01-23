@@ -14,4 +14,3 @@ NS = Name + "\n" + Surname
 print(f"welcom\n{NS}")
 
 print(Name[2::]) # the first and last 3 letters of the noun 
-

@@ -20,3 +20,8 @@ print(type((1,2,3,4,5)))      #tuple => Tuple
 print(type({"One" : 1, "Two" : 2, "Three" : 3 })) # dict => Dictionary
 
 print(2 == 4) # bool => Boolean
+print(2 < 4)  # bool => Boolean
+print(2 > 4)  # bool => Boolean
+print(type(True)) # bool => Boolean
+print(type(False)) # bool => Boolean
+print(type(3 + 4j)) # complex => Complex Number
