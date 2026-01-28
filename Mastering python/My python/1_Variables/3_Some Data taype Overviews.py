@@ -25,3 +25,9 @@ print(2 > 4)  # bool => Boolean
 print(type(True)) # bool => Boolean
 print(type(False)) # bool => Boolean
 print(type(3 + 4j)) # complex => Complex Number
+print(type(5 - 2j)) # complex => Complex Number
+print(type(4 + 0j)) # complex => Complex Number
+print(type(None)) # NoneType => None Type 
+
+# ----------------------------------------
+

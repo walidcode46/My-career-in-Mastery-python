@@ -19,7 +19,7 @@ playing_football2 = yaser.lower() == "yes" # Player 2 condition
 playing_football3 = walid.lower() == "yes" # Player 3 condition
 playing_football4 = mohsin.lower() == "yes" # Player 4 condition
 playing_football5 = jawad.lower() == "yes" # Player 5 condition
-if  playing_football1 and playing_football2 and playing_football3 and playing_football4 and playing_football5: # All players want to play football
+if  playing_football1 and playing_football2 and playing_football3 and playing_football4 or playing_football5: # All players want to play football 
     print("Health and wellness")            # Print if all players want to play football
 else:                                       # Not all players want to play football
     print("Everyone should play football")  # Print if not all players want to play football

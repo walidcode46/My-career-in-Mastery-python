@@ -2,7 +2,7 @@
 # --- String  Methods ---------------------
 # -----------------------------------------
 
-# Strings() rstrip() lstrip() 
+# Strip() rstrip() lstrip() 
 
 a = "    I love Python    "
 print(a.strip())

@@ -33,4 +33,4 @@ def message(text):
 
 
 # Calling the message function with a text
-message("Hey, how are you brother?")
+message("hy there welcome to python functions")

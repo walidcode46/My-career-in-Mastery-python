@@ -29,7 +29,7 @@ print('I Love single Quotes \'test\'') #I Love Double Quotes \'test\'
 print("I Love Double Quotes \"test\" ") #I Love Double Quotes \"test\"
 
 # Line Feed              
-print("Hello\nWorld")   #Hello  
+print("Hello\nWorld")   #Hello
                         #World                          
 # Carriage Return 
 print("123456\rbcde") #bsde56

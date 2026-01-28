@@ -8,5 +8,5 @@
 # --------------------------------------------------------
 
 for x in range(5):          # Outer loop iterating 5 times
-    for y in range(3):      # Inner loop iterating 3 times
+    for y in range(5):      # Inner loop iterating 5 times
         print(f"X: {x}, Y: {y}")  # Print current values of x and y

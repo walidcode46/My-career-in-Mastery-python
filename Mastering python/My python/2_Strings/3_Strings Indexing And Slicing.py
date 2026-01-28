@@ -32,4 +32,4 @@ print(myString[:]) # Full Data
 print(myString[0::1]) # Full Data 
 
 print(myString[0::2])
-print(myString[0::3])
+print(myString[0::3])   

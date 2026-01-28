@@ -10,7 +10,7 @@ print("===============================================")
 print("=== Welcome to Smart User Management System ===")
 print("===============================================\n")
 
-register = input("\nWould you like to register your information? (Yes/No): ")
+register = input("\nWould you like to register your information? (Yes/No): ") 
 
 user = register.lower() == "yes"
 if user: 
