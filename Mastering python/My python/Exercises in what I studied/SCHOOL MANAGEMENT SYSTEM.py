@@ -11,7 +11,7 @@ def greet_user(name):
     message = f"Welcome {name.upper()} to our School Management System!\n"
     return message 
 # greet_user("Student")
-def lhsab():
+def display_project_info():
     print("==========================================================")
     print("==== PROJECT: SCHOOL MANAGEMENT SYSTEM (LEVEL 1) =========")
     print("==========================================================\n")
@@ -74,4 +74,4 @@ def lhsab():
     print("-----------------------------------------------------------")  
 
 greet_user(name ="Student")
-# lhsab() 
+display_project_info()
