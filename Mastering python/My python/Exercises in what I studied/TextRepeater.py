@@ -8,14 +8,24 @@
 # --------------------------------------------------------
 
 # Ask the user if they want to repeat something
-repeat_question = input("Do you want to repeat something multiple times? (yes/no): "+"").strip() 
+repeat_question = input("Do you want to repeat something multiple times? (yes/no): ").strip() 
+def lm3awda():
+    repeat_question2 = input(" wach baghi tatba3 chi silsila dyal lear9am katbda f 0 wekatsali fra9m li bghiti (yes/no)")
 
+    wants_to_repeat_int =  repeat_question2 == "yes"
+    if wants_to_repeat_int:
+            print("What would you like to repeat?")
+            text_to_repeat_int = int(input("> "))
+            print(f"How many times do you want to repeat '{text_to_repeat_int}'?")
+#             repeat_count_int = int(input("> "))
+
+            print(f"\nOkay! Here is '{text_to_repeat_int}' repeated {repeat_count_int} times:\n")
 # Convert the answer to boolean
-wants_to_repeat = repeat_question == "yes"
+# wants_to_repeat = repeat_question == "yes"
 
-if wants_to_repeat:
+if repeat_question == "yes":
     print("What would you like to repeat?")
-    text_to_repeat = input(">")
+    text_to_repeat = int(input("> "))
 
     print(f"How many times do you want to repeat '{text_to_repeat}'?")
     repeat_count = int(input("> "))
@@ -23,10 +33,10 @@ if wants_to_repeat:
     print(f"\nOkay! Here is '{text_to_repeat}' repeated {repeat_count} times:\n")
 
     counter = 1
-    while counter <= repeat_count:
-        print(text_to_repeat)
-        counter += 1
+    while counter <= text_to_repeat:
+            print(text_to_repeat)
+            counter += 1
 
     print("\nFinished.")
 else:
-    print("Okay, no repetition needed.")
+    print("Okay, no repetition needed.") 

@@ -8,15 +8,14 @@
 # until the counter exceeds 5, incrementing the counter by 1 in each iteration.
 # --------------------------------------------------------
 
-print("1")
-print("2")
-print("3")
-print("4")
-print("5")
+print("python 1")
+print("python 2")
+print("python 3")
+print("python 4")
+print("python 5\n")
 
 counter = 1         # Initialize counter
 while counter <= 5: # Loop until counter is greater than 5
-    print(counter)  # Print the current counter value
+    print(f'Python {counter}')  # Print the current counter value
     counter += 1    # Increment counter by 1
-print("Finished")   # Print finished message 
-
+print("\nFinished")   # Print finished message   
