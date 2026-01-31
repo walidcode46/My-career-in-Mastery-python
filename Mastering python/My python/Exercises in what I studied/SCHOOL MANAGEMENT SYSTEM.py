@@ -6,21 +6,25 @@
 # --- relevant details.
 # ------------------------------------------------------------------
 
-def greet_user(name):
+# --- FUNCTION TO GREET USER
+def greet_user(first_Name, Last_Name):
     """Function to return a welcome message."""
-    message = f"Welcome {name.upper()} to our School Management System!\n"
+    message = f"\nWe welcome you to our School Management System, {first_Name} {Last_Name}!\n"
     return message 
+    
 # greet_user("Student")
 def display_project_info():
     print("==========================================================")
     print("==== PROJECT: SCHOOL MANAGEMENT SYSTEM (LEVEL 1) =========")
     print("==========================================================\n")
-
+    
     print("-----------------------------------------------------------") 
 
     first_Name = input("What is your Name : ")
     Last_Name  = input("What is your Last Name : ")
-    Level       = input("What is your Level : ")
+    Level      = input("What is your Level : ") 
+
+    print(greet_user(first_Name, Last_Name))
 
     print("-----------------------------------------------------------")
     Full_Name =f" Your Name is {first_Name.upper()}\n Your Lanst Name is {Last_Name.upper()}\n Your Age is {Level.upper()}"
@@ -52,7 +56,7 @@ def display_project_info():
     for T in grades:
         total = total + T
         print(f"> {total} ") 
-        
+            
     print("-----------------------------------------------------------")
 
     print("Greater Justice :")  
@@ -72,6 +76,7 @@ def display_project_info():
     print(f"> {min_grade}") 
 
     print("-----------------------------------------------------------")  
-
-greet_user(name ="Student")
+# CALL THE FUNCTION TO DISPLAY PROJECT INFO
 display_project_info()
+
+

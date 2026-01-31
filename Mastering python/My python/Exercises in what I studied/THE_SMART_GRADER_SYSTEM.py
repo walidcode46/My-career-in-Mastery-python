@@ -53,5 +53,3 @@ print(f"Your Sorted Grades are: {student_grades}")
 print("-----------------------------------------------------------")
 print("=== Thank you for using THE SMART GRADER SYSTEM ===")
 print("===========================================================")
-
-# END OF THE SMART GRADER SYSTEM

@@ -14,4 +14,3 @@ print(
     "\nthe last 5 characters of the text:", Text[-5:], 
     "\nevery second character of the text:", Text[0::2]
 )
-
