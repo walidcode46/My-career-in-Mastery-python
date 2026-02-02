@@ -13,12 +13,14 @@ def greet_user(first_Name, Last_Name):
     return message 
     
 # greet_user("Student")
-def display_project_info():
-    print("==========================================================")
-    print("==== PROJECT: SCHOOL MANAGEMENT SYSTEM (LEVEL 1) =========")
-    print("==========================================================\n")
-    
-    print("-----------------------------------------------------------") 
+class display_project_info():
+    def Project_name():
+        print("==========================================================")
+        print("==== PROJECT: SCHOOL MANAGEMENT SYSTEM (LEVEL 1) =========")
+        print("==========================================================\n")
+
+        print("-----------------------------------------------------------")
+    Project_name()
 
     first_Name = input("What is your Name : ")
     Last_Name  = input("What is your Last Name : ")
@@ -32,7 +34,7 @@ def display_project_info():
 
     print("-----------------------------------------------------------")
 
-    User = float(input("How Old Are You ?\n > "))
+    User = float(input("How Old Are You ?\n > ").strip().lower().replace(" ", ""))
 
     if User >= 18 :
         print("You Are in Adult") 
@@ -40,6 +42,7 @@ def display_project_info():
         print("You Are in Minor") 
     else:
         print("Eligible for CS Club") 
+        exit()
 
     grades = [10, 15, 20, 17, 18, 19]
     total = 0 
@@ -77,6 +80,4 @@ def display_project_info():
 
     print("-----------------------------------------------------------")  
 # CALL THE FUNCTION TO DISPLAY PROJECT INFO
-display_project_info()
-
-
+display_project_info() 
